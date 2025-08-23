@@ -20,9 +20,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="ml-auto text-sm text-neutral-500">AI-powered personal finance assistant</div>
           </div>
         </header>
+
         <main className="mx-auto max-w-5xl px-4 pb-24">{children}</main>
+
         <footer className="mt-16 py-8 text-center text-xs text-neutral-500">
-          For demo only. Sources: NYC.gov, benefits.gov.
+          Demo only. Sources: NYC.gov, benefits.gov.
         </footer>
       </body>
     </html>

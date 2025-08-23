@@ -1,6 +1,6 @@
 import { z } from "zod";
-import { EXPLAIN_PROMPT } from "@/lib/prompts";
-import { explainWithClaude } from "@/lib/claude";
+import { EXPLAIN_PROMPT } from "../../../lib/prompts";
+import { explainWithClaude } from "../../../lib/claude";
 
 const Schema = z.object({
   language: z.string().default("en"),

@@ -15,17 +15,17 @@ export default function Page() {
       <Chat />
 
       <section className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <div className="rounded-xl border bg-white p-4">
+        <div className="rounded-xl border bg-white p-4 text-center">
           <div className="text-sm font-semibold">Personalized</div>
-          <p className="text-sm text-neutral-600 mt-1">Matches by income, borough, household.</p>
+          <p className="text-sm text-neutral-600 mt-1">Matches by income, borough, household</p>
         </div>
-        <div className="rounded-xl border bg-white p-4">
+        <div className="rounded-xl border bg-white p-4 text-center">
           <div className="text-sm font-semibold">Grounded</div>
-          <p className="text-sm text-neutral-600 mt-1">Links to official NYC sources.</p>
+          <p className="text-sm text-neutral-600 mt-1">Links to official NYC sources</p>
         </div>
-        <div className="rounded-xl border bg-white p-4">
+        <div className="rounded-xl border bg-white p-4 text-center">
           <div className="text-sm font-semibold">Multilingual</div>
-          <p className="text-sm text-neutral-600 mt-1">Plain English, Spanish, Russian, Chinese.</p>
+          <p className="text-sm text-neutral-600 mt-1">Plain English, Spanish, Russian, Chinese</p>
         </div>
       </section>
     </div>
